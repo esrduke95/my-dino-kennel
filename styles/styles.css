@@ -1,3 +1,46 @@
-body {
-    background-color: darkorchid;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hospital {
+    background-image: url(./images/hospital-pattern.jpg);
+    background-repeat: repeat;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#kennel {
+    background-image: url(./images/kennel-pattern.jpg);
+    background-repeat: repeat;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#graveyard {
+    background-color: black;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 10px;
+    width: 300px;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
 }

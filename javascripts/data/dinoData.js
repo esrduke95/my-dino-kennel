@@ -80,3 +80,5 @@ let dinos = [
         image: './../../styles/images/pterodactyl.jpg'
     }
 ];
+
+export { dinos };

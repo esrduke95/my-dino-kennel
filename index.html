@@ -15,13 +15,58 @@
   <body>
     <div id="container">
       <h1>Dino Kennel</h1>
-      <div id="kennel">
+      <div id="newDinos">
+        <p>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            ADD NEW DINO
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="dinoForm">
+            <div id="addNewDino">
+              <div id="formWrapper">
+                <div id="formContainer">
+                  <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" />
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputAge">Age</label>
+                        <input type="text" class="form-control" id="inputAge" />
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputType">Type</label>
+                        <input type="text" class="form-control" id="inputType" placeholder="Example: T-Rex"/>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="imgUrl">Image URL</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="imgUrl"
+                          placeholder="Paste IMG URL here"
+                        />
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary"  id="addNewDinoBtn">Add New Dino</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <h1>Dino Hospital</h1>
-      <div id="hospital">
-      </div>
-      <h1>The Boneyard</h1>
-      <div id="graveyard">
+      <div id="dinoKennel">
+        <div id="healthyDinos">
+        </div>
+        <div id="hospital">
+        </div>
+        <div id="graveyard">
+        </div>
       </div>
     </div>
     <!--Scripts-->

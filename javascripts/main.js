@@ -1,10 +1,10 @@
-import {  buildKennel, buildHospital, buildGraveyard, clickEvents, dinos } from './components/kennel.js';
+import { addDinoBtn } from './components/buildDinos.js';
+import { buildDinoKennel } from './components/kennel.js';
+import { dinos } from './data/dinoData.js';
 
 const init = () => {
-    buildKennel(dinos);
-    buildHospital(dinos);
-    buildGraveyard(dinos);
-    clickEvents();
+    addDinoBtn();
+    buildDinoKennel(dinos);
 };
 
 init();

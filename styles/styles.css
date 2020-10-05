@@ -44,3 +44,20 @@
 h1 {
     text-align: center;
 }
+
+#addNewDino {
+    display: flex;
+    justify-content: center;
+}
+
+#formWrapper {
+    width: 800px;
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

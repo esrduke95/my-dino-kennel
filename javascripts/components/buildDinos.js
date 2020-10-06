@@ -6,7 +6,7 @@ const addDinoBtn = () => {
         e.preventDefault();
         const name = $('#inputName').val();
         const age = $('#inputAge').val();
-        const type = $('#inputSpecies').val();
+        const type = $('#inputType').val();
         const diet = $('#inputDiet').val();
         const image = $('#imgUrl').val();
 

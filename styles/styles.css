@@ -13,7 +13,7 @@
     justify-content: space-evenly;
 }
 
-#kennel {
+#healthyDinos {
     background-image: url(./images/kennel-pattern.jpg);
     background-repeat: repeat;
     display: flex;
